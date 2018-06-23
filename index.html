@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <title>My hobby</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
     <script src="https://code.jquery.com/jquery.js"></script>
@@ -11,30 +12,114 @@
 </head>
 <body>
 <div class="container">
-    <div class="jumbotron text-white bg-dark">
-        <h1 class="display-4">Welcome to my hobby page!</h1>
-        <p class="lead">This is a simple personal page for my hobby, thank you for visiting this page!</p>
-        <hr class="my-4">
-        <p>First Paragraph will talk about who you are, your hobby, and why you like it.</p>
-        <p>Second Paragraph will talk about how to start your hobby and any tools they need.</p>    
-        <p>Third Paragraph will offer recommendations to advancing your hobby including links to online resources.</p>
-
-        <!-- <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a> -->
+    <div class="row justify-content-md-center">
+        <h1 class="display-4" id="header">Welcome to Nydia's Hobby World</h1>
+    
     </div>
-</div>
 
-    <!-- <div class="container">
-        <div class="row">
-
+    <div class="container" id="article">
+        <div class="accordion" id="accordionExample">
+            <div class="card">
+              <div class="card-header bg-transparent" id="headingOne">
+                <h5 class="mb-0">
+                  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        A little things about me
+                  </button>
+                </h5>
+              </div>
+          
+              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div class="card-body">
+                    Hello! There! My name is Ni Nydia Guo who is a full stack web developer. As a happy coder, I like to do many things that is health, happy and positive. 
+                    "Bread is staff of life". So, one of my hobby is to eat delicious food and snacks from different countries. I'd love to try any food I have never tried before.
+                    No matter it is from which country or the test will be sour, sweet, bitter or hot.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header bg-transparent" id="headingTwo">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        When and How I start it
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <div class="card-body">
+                    I was bron in a porvince called Hunan in China, which every single dish comes with various chilis. That is why I like spicy food a lot.
+                    Later, I worked in Guangdong province a place that always can get yummy dim sum. Since then, I'd love to eat diverse dishes. 
+                    Based on the Bay Area is a diversified market, I believe there are so many wonderful food I haven't explored yet.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header bg-transparent" id="headingThree">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        How to get the food
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                <div class="card-body">
+                    Then, how do I know if the resturants have yummy food or not? I believe Yelp app is the main resouce for everybody. Except the app, 
+                    I will hear the feedback from my friends and family. Meanwhile, to check out their websites and any blogs that talking about them. One blog I use 
+                    a lot is <a href="https://www.thechihuo.com/san-francisco" target="_blank">The Chi Huo</a>(Chinese version).
+                    <p>As the Bay Area is a diversified place, I will recommend few different resturants that have good foods as below. Check it out anytime! </p>
+                </div>
+              </div>
+            </div>
         </div>
 
-
-    </div> -->
-
-
-    <script src="js/scripts.js"></script>
+    </div>
 
 
+    <div class="container">
+        <div class="card" id="pics" style="width: 18rem;">
+            <a href="https://www.yelp.com/biz/bodo-lucky-japanese-restaurant-fremont?osq=Ramen+Noodles" target="_blank"><img class="card-img-top" style="height:265px;" src="images/asian-noodles.jpg" alt="Card image cap"></a>
+            <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+        </div>
+        <div class="card" id="pics" style="width: 18rem;">
+            <a href="http://www.zandyrestaurant.com/en/index.html"  target="_blank"><img class="card-img-top" style="height:265px;" src="images/chinese-food.jpg" alt="Card image cap"></a>
+            <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+        </div>
+        <div class="card" id="pics" style="width: 18rem;">
+            <a href="https://www.lephorestaurant.com/"  target="_blank"><img class="card-img-top" style="height:265px;" src="images/vietnamese.jpg" alt="Card image cap"></a>
+            <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+        </div>
+        <div class="card" id="pics" style="width: 18rem;">
+            <a href="https://www.pastabenebk.com/"  target="_blank"><img class="card-img-top" style="height:265px;" src="images/spaghetti.jpg" alt="Card image cap"></a>
+            <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+        </div>
+        <div class="card" id="pics" style="width: 18rem;">
+            <a href="http://shimizucuisine.com/"  target="_blank"><img class="card-img-top" style="height:265px;" src="images/sushi.jpg" alt="Card image cap"></a>
+            <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+        </div>
+        <div class="card" id="pics" style="width: 18rem;">
+            <a href="http://www.pizzaiolooakland.com/"  target="_blank"><img class="card-img-top" style="height:265px;" src="images/pizza.jpg" alt="Card image cap"></a>
+            <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<footer class="text-center">&copy; 2018 - Ni Guo </footer>
+
+
+
+    <script src="js/scripts.js" defer></script>
 </body>
 
 </html>

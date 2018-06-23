@@ -1,3 +1,58 @@
-body {
-    background-color: fuchsia;
-  }
+@import url('https://fonts.googleapis.com/css?family=Bitter');
+
+html body {
+    background-color: blanchedalmond;
+    font-family: Arial;
+}
+
+#header {
+    animation: fadeIn 8s;
+    font-weight: bold;
+    font-family: "Bitter", sans-serif;
+    color: red;
+    margin: 20px 10px 20px 10px;
+    padding: 40px 105px 40px 105px;
+
+}
+
+h5.mb-0 {
+    color: red;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+img {
+    width: 286px;
+    height: 240px;
+
+}
+
+img.card-img-top:hover {
+    padding: 7px;
+    border-color:rgba(207, 207, 207, 0.945);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 4px;
+
+}
+
+#pics {
+    margin: 20px 25px 15px 40px;
+    float: left;
+
+}
+
+footer{
+    clear: both;
+    background-color:rgb(250, 56, 8);
+    padding: 30px;
+    margin: 20px;
+    color:white;
+}
