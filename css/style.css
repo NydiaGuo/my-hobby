@@ -39,12 +39,14 @@ h1 {
     display: block;
 }
 
-#article h4 {
+#article h5 {
     background-color: rgb(255,232,94);
     padding: 8px 0px 8px 8px;
     box-shadow: 2px 2px grey;
     border-radius: 5px;
     border: 0px solid grey;
+    color:rgb(233, 64, 64);
+
 }
 
 img {
